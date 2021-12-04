@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Markazi+Text&display=swap');
+
+:root {
+    font-family:"Amiri";
+  }
+body{
+
+
+    height: 3000px;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+    font-family: 'Amiri', serif;
+
+}
+@media(max-width:476px) {
+    .section_img{
+        font-size: 16px;
+        
+    }
+    .hello p{
+        font-size: 16px;
+    }
+    
+}
+/*style section1*/
+
+.section_img{
+    background-image: url(images/slide-bg-1.jpg);
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color:white;
+    font-size: 24px;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+   
+    
+    
+}
+.home{
+    width: 50%;
+    text-align: right;
+}
+.h1,.pa{
+    text-align: right;
+}
+.xl{
+    right: 0;
+}
+.part_1{
+    text-align:right;
+    margin-bottom: 10px;
+    position: relative;
+}
+/* style section welcome*/
+.part_1 h2:after{
+    content: "";
+    display: block;
+    width: 30%;
+    height: 3px;
+    background-color:#ffc107;
+    position:absolute;
+    right: auto;
+    top:40px;
+    padding: 0;
+}
+.xf{
+    display:none
+}
+/*style section deatils*/
+.tr{
+    position: relative;
+    margin-bottom: 30px;
+}
+.tarhib{
+    position:absolute;
+    width: 75%;
+    left:0;
+    top:0
+}
+.details{
+    display: none;
+}
+
+
+
+
