@@ -11,13 +11,16 @@ $( document ).ready(function() {
     });
 */
 $( document ).ready(function() {
-   
+    console.log($(window).width());
+    console.log("hi");
     var top=$(this).scrollTop()
     if (top>200){
         $(".xf").show()
     }if (top>600){
         $(".details").show()
 
+    }if (top>900){
+        $(".section_k").show()
     }
    $(window).scroll(function(){
        var top=$(this).scrollTop()
@@ -25,11 +28,12 @@ $( document ).ready(function() {
            $(".xf").show()
        }if(top>600){
            $(".details").show()
-       }
+       }if (top>900){
+        $(".section_k").show()
+    }
    })
     
 });
-
  
 
 
