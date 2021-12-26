@@ -11,6 +11,7 @@ $( document ).ready(function() {
     });
 */
 $( document ).ready(function() {
+    $(window).scrollTop(0);
     console.log($(window).width());
     console.log("hi");
     var top=$(this).scrollTop()
@@ -30,6 +31,11 @@ $( document ).ready(function() {
            $(".details").show()
        }if (top>900){
         $(".section_k").show()
+    }
+    if (top>1450){
+        $(".who").show()
+    }if (top>1850){
+        $(".info").show()
     }
    })
     

@@ -5,15 +5,21 @@
   }
 body{
 
-
-    height: 3000px;
+    
+    height: 5000px;
     margin: 0;
     padding: 0;
     direction: rtl;
     text-align: right;
     font-family: 'Amiri', serif;
+   
 
 }
+ul{
+    list-style-type: none;
+    padding: 0
+}
+
 @media(max-width:476px) {
     .section_img{
         font-size: 16px;
@@ -24,9 +30,11 @@ body{
     }
     
 }
+
 /*style section1*/
 
 .section_img{
+   
     background-image: url(images/slide-bg-1.jpg);
     height: 450px;
     background-size: cover;
@@ -36,6 +44,7 @@ body{
     font-size: 24px;
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:100px
 
     
    
@@ -156,7 +165,133 @@ body{
     font-size: 32px;
    
 }
+/* style info */
 
+
+.imagA {
+    position: relative;
+   
+    
+}
+.imagA img{
+    margin-top: 10px;
+    width: 30%;
+    height: 100px;
+    border-radius: 50%;
+}
+.imagA div{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 66%;
+}
+.imagA div p{
+    height: 100px;
+    
+    
+}
+@media(max-width:767px){
+    .imagA{
+        font-size:16px;
+        margin-bottom:22%;
+    }
+    .imagA div p{
+        height: 50px;
+        
+    }
+        
+  
+
+}
+@media(min-width:768px){
+    .imagA div p{
+        margin-bottom:35px;
+    }
+
+}
+.item {
+    padding-top:75px;
+    margin-top:150px;
+    text-align: center;
+    background-image: url(images/subscribe-our-newsletter-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height:500px;
+    color:white;
+
+}
+.idh{
+    margin-top:70px;
+}
+.in{
+    
+    width:50%;
+    height:40px;
+    border: none;
+    padding-right:30px;
+    outline: none;
+}
+.bt{
+    height: 40px;
+    margin-top: -3.5px;
+
+}
+@media(max-width:760px){
+    .in,.bt{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+}
+/*stylre ournews*/
+.blog{
+    transition: all 0.3s;
+}
+.blog:hover{
+    opacity: 0.8;
+}
+/*style finish*/
+.finish{
+    background: #071c33;
+    padding-top: 70px;
+    height: 450px;
+
+}
+
+.footer{
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid white;
+    padding-bottom: 15px;
+}
+.footer div{
+    position: absolute;
+    top:0;
+    right:75px;
+    margin:0;
+   
+}
+.media li{
+    display: inline-block;
+    margin:auto;
+}
+.media li a i:hover{
+    opacity: 0.8;
+
+}
+#ir{
+    width: 60%;
+    height: 50px;
+}
+#btn_ir{
+    width: 35%;
+    height: 50px;
+    margin-top:-5px;
+
+}
+.contact h5,.contact p,.contact form ,.contact div{
+    margin-bottom: 40px;
+}
 
 
 
