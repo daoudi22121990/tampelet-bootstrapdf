@@ -13,13 +13,21 @@ $( document ).ready(function() {
 */
 
 $(document ).ready(function() {
-    console.log($(".section_img").offset().top);
+    console.log("hi");
     
-    $(this).scroll(function(){
-        var top=$(window).scrollTop()
+    $(window).scroll(function(){
+        var top=$(this).scrollTop()
         console.log(top);
+        if (top>=700){
+            $("#back-to-top").fadeIn(700);
+        }else{
+            $("#back-to-top").fadeOut(500);
 
-    });
+        }
+
+    })
+    
+
     
  
     /*

@@ -16,6 +16,7 @@ body{
    
 
 }
+
 ul{
     list-style-type: none;
     padding: 0
@@ -30,6 +31,21 @@ ul{
         font-size: 16px;
     }
     
+}
+.he{
+    margin-bottom: 200px;
+    font-size: 24px;
+    color:#444;
+}
+.he p{
+    color:deeppink;
+}
+.carousel-control-prev span:hover{
+    background-color: gold;
+
+}
+.carousel-control-next span:hover{
+    background-color: gold;
 }
 
 /*style section1*/
@@ -55,6 +71,7 @@ ul{
 .home{
     width: 50%;
     text-align: right;
+    padding: 0;
 }
 .h1,.pa{
     text-align: right;
@@ -318,7 +335,7 @@ ul{
 
 #back-to-top{
     
-    display: block;
+    display: none;
     height: 40px;
     width: 40px;
     background-color: #444;
@@ -331,10 +348,8 @@ ul{
      padding: auto;
      transform: rotate(-90deg);
     border-radius: 2px;
-   
-    
-   
 }
+
 #back-to-top i{
     display: block;
     width: 100%;
