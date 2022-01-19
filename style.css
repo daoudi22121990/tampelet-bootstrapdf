@@ -206,12 +206,14 @@ ul{
 @media(max-width:767px){
     .imagA{
         font-size:16px;
-        margin-bottom:22%;
-    }
-    .imagA div p{
-        height: 50px;
+        margin-bottom: 100px;
         
+
+    
     }
+   
+    
+    
         
   
 
@@ -330,6 +332,7 @@ ul{
 @media(max-width:766px){
     .author{
         height: 150px;
+        font-size: 12px;
     }
 }
 
